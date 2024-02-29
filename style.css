@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width:100%;
+      background-color: bisque;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.btn{
+    font-size: 18px;
+    padding: 6px 12px;
+    background-color: orange;
+    border-radius: 2px solid #fff;
+    border: none;
+}
+.btn:hover{
+    background-color: lightblue;
+    color: #fff;
+}
+input{
+    padding: 6px 2px;
+    min-width: 320px;
+    font-size: 18px;
+}
+.todoLists{
+    margin-top: 20px;
+    color: #000;
+}
+.todoLists li{
+    list-style: number;
+    margin: 10px 0;
+}
